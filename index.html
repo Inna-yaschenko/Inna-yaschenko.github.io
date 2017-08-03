@@ -82,64 +82,105 @@
 				<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
 			</div><!-- container -->
 		</section>
-		
-		<!-- ==== ABOUT ==== -->
-		<div class="container" id="about" name="about">
-			<div class="row white">
+	
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+            
+<div class="container">
+		<div class="row white">
 			<br>
 				<h1 class="centered">MY PENCIL'S DRAWINGS</h1>
-				<hr>
-    <div class="row centered pencil">
-<div>                                    
-    <a href="#" class="pop">
-        <img src="assets/img/portfolio/drawing1.png" style="width: 450px; height: 700px;">
-    </a>
-    </div>
-</div>
+                                    <hr> </div>                      
+    <div id="main_area">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-sm-6" id="slider-thumbs">
+                <!-- Bottom switcher of slider -->
+                <ul class="hide-bullets">
 
-<div class="container centered pencil top-buffer" id="drawings">
-
-        <div class="col-md-3">
-    <a href="#" class="pop">
-        <img src="assets/img/portfolio/drawing2.jpg" style="width: 200px; height: 300px;">
-    </a>
-        </div>
-        
-        <div class="col-md-3">
-    <a href="#" class="pop">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/52/0a/4e/520a4e84ca6cdb3a817b19486ca3ec1b--pencil-sketching-pencil-art.jpg" style="width: 200px; height: 300px;">
-    </a>
-        </div>
+                    <li class="col-sm-6" style="display:none">
+                        <a class="thumbnail" id="carousel-selector-16" >
+                            <img src="assets/img/portfolio/drawing1.png">
+                        </a>
+                    </li>
 
 
-        <div class="col-md-3">
-    <a href="#" class="pop">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/52/0a/4e/520a4e84ca6cdb3a817b19486ca3ec1b--pencil-sketching-pencil-art.jpg" style="width: 200px; height: 300px;">
-    </a>
-        </div>
-        <div class="col-md-3">
-    <a href="#" class="pop">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/52/0a/4e/520a4e84ca6cdb3a817b19486ca3ec1b--pencil-sketching-pencil-art.jpg" style="width: 200px; height: 300px;">
-    </a>
+                    <li class="col-sm-6">
+                        <a class="thumbnail" id="carousel-selector-1"><img src="assets/img/portfolio/drawing1.png"></a>
+                    </li>
+
+                    <li class="col-sm-6">
+                        <a class="thumbnail" id="carousel-selector-2"><img src="assets/img/portfolio/drawing1.png"></a>
+                    </li>
+
+                    <li class="col-sm-6">
+                        <a class="thumbnail" id="carousel-selector-3"><img src="assets/img/portfolio/drawing2.jpg"></a>
+                    </li>
+
+
+                    <li class="col-sm-6">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="assets/img/portfolio/drawing2.jpg"></a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+
+                                    <div class="active item" data-slide-number="16">
+                                        <img src="assets/img/portfolio/drawing1.png"></div>
+
+
+                                    <div class="item" data-slide-number="1">
+                                        <img src="assets/img/portfolio/drawing1.png"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                        <img src="assets/img/portfolio/drawing1.png"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                        <img src="assets/img/portfolio/drawing2.jpg"></div>
+                                 <div class="item" data-slide-number="4">
+                                        <img src="assets/img/portfolio/drawing2.jpg"></div>
+                             
  
-    </div>
-</div>
-
-
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">              
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img src="" class="imagepreview" style="width: 100%;" >
-          </div>
+                                </div>
+                                <!-- Carousel nav -->
+                                <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Slider-->
         </div>
-      </div>
-    </div>
 
-                                    
-			</div><!-- row -->
-		</div><!-- container -->
+    </div>
+</div>                      
+                                  
+                                  
+ 
 		
 		<!-- ==== SECTION DIVIDER1 -->
 		<section class="section-divider textdivider divider2">
@@ -298,27 +339,7 @@
         <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
 						      a modal for each of your projects. -->
         
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Project Title</h4>
-              </div>
-              <div class="modal-body">
-                <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
-                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
-                <p><b><a href="#">Visit Site</a></b></p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-            <!-- /.modal-content --> 
-          </div>
-          <!-- /.modal-dialog --> 
-        </div>
-        <!-- /.modal --> 
+
         
         <!-- PORTFOLIO IMAGE 2 -->
         <div class="col-md-4">
@@ -428,12 +449,28 @@
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
     <script>
-       $(function() {
-        $('.pop').on('click', function() {
-            $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-            $('#imagemodal').modal('show');   
-            
-        });     
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
 });
                                                                  </script>           
 <style>
@@ -459,7 +496,32 @@
     margin: 0;
     border-radius: 9px;
 
-    border: 6px solid #a3a3a3;
+    border: 6px solid #a3a3a3;}
+                                           .hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.col-sm-3 a {
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: all 3s ease;
+}
+
+.col-sm-3 a:hover {
+    border: 1px solid #ff4647;
+    border-radius: 100% 60% / 30% 10%;
+    background: linear-gradient(rgba(56,123,131,0.7),rgba(56,123,131,0.7));
+}
                                                                  </style>                                                                 
   </body>
 </html>
