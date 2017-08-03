@@ -135,7 +135,7 @@
 
                 </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 hidden-xl-down">
                 <div class="col-xs-12" id="slider">
                     <!-- Top part of the slider -->
                     <div class="row">
@@ -388,7 +388,7 @@
             <img class="img-responsive" src="assets/img/portfolio/tablet1.png" alt="">
 
 
-        </div><div class="col-xs-6">
+        </div><div class="col-xs-12 col-md-6">
 
             <img class="img-responsive" src="assets/img/portfolio/tablet2.png" alt="">
 
@@ -437,7 +437,7 @@
 				<h4>Created by <a target="_blank" href="https://www.facebook.com/profile.php?id=100013500187449">Inna Yaschenko</a> - Copyright 2017</h4>
 			</div>
 		</div>
-
+<!--xs (phones), sm (tablets), md (desktops), and lg (larger desktops). -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -524,6 +524,12 @@
     -o-transition: opacity .5s ease-out;
                                         
 }
+                                           
+@media (max-width: 767px) {                  
+   #slider {
+      display: none;
+   }
+}                                           
                                                                  </style>                                                                 
   </body>
 </html>
