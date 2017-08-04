@@ -50,7 +50,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container" style="margin-top: 3%" id="home_anchor">
+	<div class="container" id="home_anchor">
 		<div class="row">
 			<br>
 			<h1 class="centered">ART PORTFOLIO</h1>
@@ -375,10 +375,7 @@
 	               $('#carousel-text').html($('#slide-content-'+id).html());
 	       });
    $(".nav navbar-nav").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
-    }, 2000);
-});
+
 	});
 	</script>
 	<style>
@@ -435,13 +432,20 @@
 	                                       
 	}
 	                                          
-	@media (max-width: 767px) {                  
+	@media (max-width: 867px) {                  
 	  #slider {
 	     display: none;
 	  }
 	  .top-buffer-phone {
 	     margin-top:45px;
 	  }
+
+	.col-sm-6 a:hover {
+	   opacity: 1;
+
+	                                       
+	}        
+        
 	}                                           
 
 	.section-divider p, .section-divider h1{
@@ -453,7 +457,9 @@
     -1px 1px 0 #4c4c4c,
     1px 1px 0 #4c4c4c;  
 	}    
-     
+body { 
+    padding-top: 45px; 
+}     
 	</style>
 </body>
 </html>
