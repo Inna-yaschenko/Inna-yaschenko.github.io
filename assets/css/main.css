@@ -356,9 +356,11 @@ a:after {
    Box Sections
    ========================================================================== */
 
+/*
 .white h1 {
 	padding-top: 35px;
 }
+*/
 
 .white p {
 	padding-top: 25px;
@@ -425,7 +427,7 @@ a:after {
 }
 
 .divider4 {
-	background-image: url('../img/bg/divider3.jpg')
+	background-image: url('http://cdn.wallpapersafari.com/55/69/8zAcgT.jpg')
 }
 
 .divider6 {

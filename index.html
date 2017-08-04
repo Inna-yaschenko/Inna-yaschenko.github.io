@@ -27,7 +27,8 @@
 			<div class="container">
 				<div class="navbar-collapse collapse">
 					<div class="navbar-header">
-						<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span></button> <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span></a>
+<!--                        <span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span>-->
+						<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span></button> 
 					</div>
 					<ul class="nav navbar-nav">
 						<li>
@@ -75,7 +76,7 @@
 			<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
 		</div><!-- container -->
 	</section>
-	<div class="container" id="pencil_anchor">
+	<div class="container anchor" id="pencil_anchor">
 		<div class="row white">
 			<br>
 			<h1 class="centered">MY PENCIL DRAWINGS</h1>
@@ -140,10 +141,10 @@
 		</div><!-- container -->
 	</section><!-- section -->
 	<br>
-	<h1 class="centered row centered  col-offset-2" id="illustrator_anchor">PICTURES I HAVE DRAWN IN ADOBE ILLUSTRATOR<br>
+	<h1 class="centered row centered  col-offset-2 anchor" id="illustrator_anchor">PICTURES I HAVE DRAWN IN ADOBE ILLUSTRATOR<br>
 	STEP BY STEP</h1>
 	<hr>
-	<!-- ==== SERVICES ==== -->
+	<!-- ==== illustrator ==== -->
 	<div class="container" id="illustrator">
 		<br>
 		<br>
@@ -295,7 +296,7 @@
 			<p>“If I could say it in words there would be no reason to paint.” Edward Hopper</p>
 		</div><!-- container -->
 	</section><!-- section -->
-	<div class="row" id="tablet_anchor">
+	<div class="row anchor" id="tablet_anchor">
 		<h2 class="centered">DRAWING IN PHOTOSHOP USING GRAPHIC TABLET</h2>
 		<hr>
 		<br>
@@ -459,7 +460,12 @@
 	}    
 body { 
     padding-top: 45px; 
-}     
+}
+/*fix navbarscroll*/
+.anchor
+{ padding-top: 50px; 
+    margin-top: -50px;       
+}
 	</style>
 </body>
 </html>
