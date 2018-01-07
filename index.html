@@ -98,7 +98,7 @@ I love crafting interactive experiences. Or any good experience, solved by great
     	<div class="container anchor" id="website_anchor">
 		<div class="row white">
 			<br>
-			<h1 class="centered">MY GRADUATION WORK</h1>
+			<h1 class="centered">MY GRADUATE WORK IN DESIGN CAMP</h1>
 			<hr>
 		</div>
 		<div class="container" id="main_area">
@@ -488,7 +488,10 @@ I love crafting interactive experiences. Or any good experience, solved by great
 				<span class="icon icon-envelop"></span> <a href="mailto:innayashchenko96@gmail.com" target="_blank">innayashchenko96@gmail.com</a><br>
 				<span class="icon icon-instagram"></span> <a href="https://www.instagram.com/inna_yashchenko/" target="_blank">@inna_yashchenko</a><br>
 				<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/profile.php?id=100013500187449" target="_blank">Inna Yaschenko</a><br> 
-                <span class="icon icon-twitter"></span><a href="https://twitter.com/APcYstUteHZ7yQI" target="_blank"> Inna Yaschenko</a><br></p>
+                
+<!--                <span class="icon icon-twitter"></span><a href="https://twitter.com/APcYstUteHZ7yQI" target="_blank"> Inna Yaschenko</a>-->
+                
+                <br></p>
 			</div><!-- col -->
 		</div><!-- row -->
 	</div><!-- container -->
@@ -634,4 +637,13 @@ img.lang:hover {
 
 	</style>
 </body>
+<script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+</script>
 </html>
