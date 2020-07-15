@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+innamutel.work	TRUE	/	FALSE	1999999999	ipp_uid2	gXWOFHxTL4CJ3Xdo/nHif5OrMAQYZZ/ZkxHoBKw==
+innamutel.work	TRUE	/	FALSE	1999999999	ipp_uid1	1594841591470
+innamutel.work	TRUE	/	FALSE	1999999999	ipp_uid	1594841591470/gXWOFHxTL4CJ3Xdo/nHif5OrMAQYZZ/ZkxHoBKw==
+innamutel.work	TRUE	/	FALSE	1999999999	rerf	AAAAAF8PWfdBfiJQAwhuAg==
+.innamutel.work	TRUE	/	FALSE	1999999999	__cfduid	d3ed8895c4a4fa25de2770296eeca74dc1594841622
+innamutel.work	TRUE	/	FALSE	1999999999	SameSite	Lax
+
